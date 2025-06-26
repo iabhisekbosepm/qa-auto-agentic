@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Logs and results
+logs/
+Result/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.cursor/
+*.swp 
