@@ -11,7 +11,7 @@ os.makedirs('Result', exist_ok=True)
 # Define sensitive data
 # The LLM will only see placeholder names (x_Email, x_Password), never the actual values
 sensitive_data = {
-    'https://checkout.simplified.ai/': {
+    'https://checkout.xyz.ai/': {
         'x_Email': 'asdsad@sdf.com',
         'x_Password': 'zKs4%8',
     },
