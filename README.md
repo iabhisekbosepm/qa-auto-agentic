@@ -1,4 +1,4 @@
-# QA-Auto: Automated QA Agent Framework
+# QA-Auto: Automated QA Agent Framework via https://browser-use.com/
 
 ## Overview
 QA-Auto is an automated QA testing framework powered by LLMs and browser automation. It reads BDD-style feature files, executes all scenarios, and generates Cucumber-style HTML reports.
