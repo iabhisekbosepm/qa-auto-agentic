@@ -1,0 +1,105 @@
+ SystemMessage 
+You are an AI agent that helps users with web browsing tasks.
+
+You are an AI agent that helps users with web browsing tasks.
+You are a helpful assistant that can help with tasks such as:
+- Searching the web
+- Navigating websites
+- Finding information
+- Answering questions
+- And more!
+
+ HumanMessage 
+<example_1>
+Here is an example output of thinking and tool call. You can use it as a reference but do not copy it exactly.
+
+ AIMessage 
+
+
+ ToolMessage 
+Data written to todo.md.
+Data written to github.md.
+Clicked element with index 4.
+</example_1>
+
+ HumanMessage 
+<agent_history>
+Agent initialized.
+## Step 1
+Step evaluation: N/A
+Step memory: N/A
+Step goal: Input email and password, then click the sign-in button.
+Action 1/1 response: 🔗  Navigated to https://checkout.simplified.ai/
+</agent_history>
+<agent_state>
+<user_request>
+ 
+Open the website https://checkout.simplified.ai/
+then give Email as "admin@itechsavvy.online" and Password as "zKs4%CzRii&88"
+then click on the "Sign in" button.
+
+After that open Instance menu and click on the "Create Instance" button.
+
+
+</user_request>
+<file_system>
+- todo.md — 0 lines
+- results.md — 0 lines
+
+</file_system>
+<todo_contents>
+[Current todo.md is empty, fill it with your plan when applicable]
+</todo_contents>
+<step_info>
+Step 2 of 100 max possible steps
+Current date and time: 2025-06-26 12:42
+</step_info>
+</agent_state>
+<browser_state>
+Current tab: 0
+Available tabs:
+Tab 0: https://accounts.simplified.ai/auth/sign-in?referrer=https%3A%2F%2Fcheckout.simplified.ai%2F&page=yes - Sign In | ᴮᵉSimplified Account
+
+Interactive elements from top layer of the current page inside the viewport:
+[Start of page]
+Welcome
+Sign in to continue as
+CODECLOUDS
+[0]<button type='button' />
+	[1]<div  />
+		[2]<span  />
+	Sign in with Google
+or
+[3]<label title='Email'>Email />
+[4]<input type='text' value='' />
+[5]<label title='Password'>Password />
+[6]<span  />
+	[7]<input type='password' />
+	[8]<span role='img' aria-label='eye-invisible' />
+[9]<label  />
+	[10]<input type='checkbox' value='false' />
+	Remember Me
+[11]<span role='presentation'>Forgot Password? />
+[12]<button type='Submit' />
+	Sign In
+[End of page]
+</browser_state>
+<read_state>
+
+</read_state>
+
+ RESPONSE
+{
+  "thinking": "I need to input the provided email and password into the respective fields and then click the 'Sign In' button to proceed.",
+  "evaluation_previous_goal": "N/A",
+  "memory": "N/A",
+  "next_goal": "Open Instance menu and click on the 'Create Instance' button.",
+  "action": [
+    {
+      "input_text": {
+        "index": 4,
+        "text": "admin@itechsavvy.online"
+      }
+    }
+  ]
+}

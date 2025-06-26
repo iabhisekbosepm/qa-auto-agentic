@@ -1,0 +1,9 @@
+{
+  "python": {
+    "venv": "venv"
+  },
+  "exclude": [
+    "venv/",
+    "__pycache__/"
+  ]
+} 

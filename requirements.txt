@@ -1,0 +1,5 @@
+python-dotenv
+langchain-google-genai
+browser-use
+behave
+behave-html-formatter 
